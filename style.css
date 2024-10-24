@@ -1,0 +1,39 @@
+/* style.css */
+
+.root {
+    -fx-background-color:  #3f4447;
+    -fx-padding: 20px;
+    -fx-spacing: 10;
+}
+
+.label {
+    -fx-font-family: "Arial";
+    -fx-text-fill: #34b4ef;
+    -fx-font-weight: bold;
+}
+
+.length-label {
+    -fx-background-color: #15516d;
+    -fx-border-radius: 10px;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+
+.generate-button {
+    -fx-background-color: #4682b4; /* Steel blue background color */
+    -fx-text-fill: white;          /* White text color */
+    -fx-font-size: 14px;           /* Font size */
+    -fx-padding: 10px 20px;        /* Padding: vertical 10px, horizontal 20px */
+    -fx-border-radius: 5px;        /* Rounded corners */
+    -fx-background-radius: 5px;    /* Match border radius */
+    -fx-alignment: center;
+}
+
+.pass-output {
+    -fx-background-color: #15516d;
+     -fx-control-inner-background: #15516d;
+     -fx-text-fill: black;
+     -fx-font-weight: bold;
+     -fx-font-size: 15px;
+     -fx-border-width: 0px;
+}
